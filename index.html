@@ -1,43 +1,1347 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jewelry Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="scripts.js"></script>
-</head>
-<body>
-    <div class="container-center-horizontal">
-        <div class="desktop-13 screen">
-            <div class="rectangle-6294-ABhMUW"></div>
-            <h1 class="title-ABhMUW">Discover The Exceptional Jewellery With Us</h1>
-            <div class="gem-luxe-custom-jewels-ABhMUW">GemLuxe Custom Jewels</div>
-            <p class="pikup-silver-sterling-designer-ring-ABhMUW">
-                Pikup Silver Sterling Designer Ring
-            </p>
-            <p class="silver-round-designer-bracelet-for-women-ABhMUW">
-                Silver Round Designer Bracelet For Women
-            </p>
-            <p class="we-have-everything-which-trendy-ABhMUW">
-                We Have Everything Which Trendy
-            </p>
-            <p class="jewell-best-collection-for-you-all-ABhMUW">
-                Jewell Best Collection For You All
-            </p>
-            <p class="lorem-ipsum-dolor-si-ABhMUW">
-                Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et sint laboriosam sed ipsa sin
-            </p>
-            <div class="log-in-ABhMUW">Log In</div>
-            <div class="rectangle-6271-ABhMUW"></div>
-            <div class="rectangle-6272-ABhMUW"></div>
-            <div class="get-started-ABhMUW">Get Started</div>
-            <div class="home-ABhMUW">Home</div>
-            <div class="about-ABhMUW">About</div>
-            <div class="services-ABhMUW">Services</div>
-            <div class="catalogue-ABhMUW">Catalogue</div>
-            
-        </div>
-    </div>
-</body>
-</html>
+
+<!-- This code was generated using AnimaApp.com. 
+This code is a high-fidelity prototype.
+Get developer-friendly React or HTML/CSS code for this project at: https://projects.animaapp.com?utm_source=hosted-code 
+09/12/2024 00:02:16 -->
+
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=1440, maximum-scale=1.0"><link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png"><meta name="og:type" content="website"><meta name="twitter:card" content="photo"><script id="anima-load-script" src="load.js"></script><script id="anima-hotspots-script" src="hotspots.js"></script><script id="anima-overrides-script" src="overrides.js"></script><script src="https://animaapp.s3.amazonaws.com/js/timeline.js"></script><style>
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro:700,400|Inter:500,600|Noto+Serif+JP:900|Poppins:500,600");
+
+
+@font-face {
+  font-family: "Font Awesome 5 Brands-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://anima-uploads.s3.amazonaws.com/5b59ac6041bb8600090b709d/Font Awesome 5 Brands-Regular-400.otf') format("opentype");
+}
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/67563347bb99cd30088d481f.67563348bb99cd30088d4822.zPdvHPZ.hch.png");
+
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.component-wrapper a {
+  display: contents;
+  pointer-events: auto;
+  text-decoration: none;
+}
+
+.component-wrapper * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.component-wrapper a *,
+.component-wrapper input,
+.component-wrapper video,
+.component-wrapper iframe {
+  pointer-events: auto;
+}
+
+.component-wrapper.not-ready,
+.component-wrapper.not-ready * {
+  visibility: hidden !important;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.container-center-vertical {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  pointer-events: none;
+}
+
+.container-center-vertical > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.auto-animated div {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated input {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+  opacity: 1;
+}
+
+.overlay-base {
+  display: none;
+  height: 100%;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.overlay-base.animate-appear {
+  align-items: center;
+  animation: reveal 0.3s ease-in-out 1 normal forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+}
+
+.overlay-base.animate-disappear {
+  animation: reveal 0.3s ease-in-out 1 reverse forwards;
+  display: block;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.overlay-base.animate-disappear * {
+  pointer-events: none;
+}
+
+@keyframes reveal {
+  from { opacity: 0 }
+ to { opacity: 1 }
+}
+
+.animate-nodelay {
+  animation-delay: 0s;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.valign-text-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+input:focus {
+  outline: none;
+}
+
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+:root { 
+  --black: #000000;
+  --white: #ffffff;
+  --white-2: #ffffffcf;
+  --white-3: #ffffffde;
+ 
+  --font-size-l: 16px;
+  --font-size-m: 14px;
+  --font-size-xl: 16.7px;
+  --font-size-xxl: 20px;
+  --font-size-xxxl: 36px;
+  --font-size-xxxxl: 51px;
+  --font-size-xxxxxl: 65px;
+ 
+  --font-family-anonymous_pro: "Anonymous Pro", Helvetica;
+  --font-family-font_awesome_5_brands-regular: "Font Awesome 5 Brands-Regular", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-noto_serif_jp: "Noto Serif JP", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+}
+.anonymouspro-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-anonymous_pro);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.anonymouspro-normal-white-14px {
+  color: var(--white-2);
+  font-family: var(--font-family-anonymous_pro);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.anonymouspro-normal-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-anonymous_pro);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.anonymouspro-bold-white-51px {
+  color: var(--white);
+  font-family: var(--font-family-anonymous_pro);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.poppins-medium-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.anonymouspro-normal-white-24px {
+  color: var(--white-3);
+  font-family: var(--font-family-anonymous_pro);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+:root {
+}
+
+
+/* screen - desktop-13 */
+
+.desktop-13 {
+  background-color: #101014;
+  height: 4525px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.desktop-13 .rectangle-6294-ABhMUW {
+  background-color: var(--black);
+  height: 532px;
+  left: 0px;
+  position: absolute;
+  top: 2050px;
+  width: 1440px;
+}
+
+.desktop-13 .title-ABhMUW {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-anonymous_pro);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 104px;
+  letter-spacing: 0.00px;
+  line-height: 84.5px;
+  position: absolute;
+  text-align: left;
+  top: 259px;
+  width: 777px;
+}
+
+.desktop-13 .gem-luxe-custom-jewels-ABhMUW {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-anonymous_pro);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 332px;
+  letter-spacing: 0.00px;
+  line-height: 83.2px;
+  position: absolute;
+  text-align: left;
+  top: 118px;
+  width: 777px;
+}
+
+.desktop-13 .pikup-silver-sterling-designer-ring-ABhMUW {
+  background-color: transparent;
+  height: auto;
+  left: 678px;
+  letter-spacing: 0.00px;
+  line-height: 66.3px;
+  position: absolute;
+  text-align: left;
+  top: 844px;
+  width: 664px;
+}
+
+.desktop-13 .silver-round-designer-bracelet-for-women-ABhMUW {
+  background-color: transparent;
+  height: auto;
+  left: 103px;
+  letter-spacing: 0.00px;
+  line-height: 66.3px;
+  position: absolute;
+  text-align: left;
+  top: 1538px;
+  width: 664px;
+}
+
+.desktop-13 .we-have-everything-which-trendy-ABhMUW {
+  background-color: transparent;
+  height: auto;
+  left: 713px;
+  letter-spacing: 0.00px;
+  line-height: 66.3px;
+  position: absolute;
+  text-align: left;
+  top: 3528px;
+  width: 664px;
+}
+
+.desktop-13 .jewell-best-collection-for-you-all-ABhMUW {
+  background-color: transparent;
+  height: auto;
+  left: 106px;
+  letter-spacing: 0.00px;
+  line-height: 66.3px;
+  position: absolute;
+  text-align: left;
+  top: 2765px;
+  width: 607px;
+}
+
+.desktop-13 .lorem-ipsum-dolor-si-ABhMUW {
+  left: 105px;
+  top: 536px;
+  width: 528px;
+}
+
+.desktop-13 .log-in-ABhMUW {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 1123px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 36px;
+  white-space: nowrap;
+  width: 50px;
+}
+
+.desktop-13 .rectangle-6271-ABhMUW {
+  background-color: var(--white);
+  height: 40px;
+  left: 1222px;
+  position: absolute;
+  top: 28px;
+  width: 118px;
+}
+
+.desktop-13 .rectangle-6272-ABhMUW {
+  background-color: transparent;
+  border: 1px solid;
+  border-color: var(--white);
+  height: 40px;
+  left: 1098px;
+  opacity: 0.5;
+  position: absolute;
+  top: 28px;
+  width: 100px;
+}
+
+.desktop-13 .get-started-ABhMUW {
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  left: 1235px;
+  top: 36px;
+  white-space: nowrap;
+  width: 93px;
+}
+
+.desktop-13 .home-ABhMUW {
+  background-color: transparent;
+  height: auto;
+  left: 288px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 212px;
+  width: 93px;
+}
+
+.desktop-13 .about-ABhMUW {
+  background-color: transparent;
+  height: auto;
+  left: 468px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 212px;
+  width: 93px;
+}
+
+.desktop-13 .services-ABhMUW {
+  background-color: transparent;
+  height: auto;
+  left: 645px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 212px;
+  width: 129px;
+}
+
+.desktop-13 .catalogue-ABhMUW {
+  background-color: transparent;
+  height: auto;
+  left: 854px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 212px;
+  width: 145px;
+}
+
+.desktop-13 .social-icons-ABhMUW {
+  background-color: transparent;
+  height: 101px;
+  left: 1320px;
+  position: absolute;
+  top: 450px;
+  width: 20px;
+}
+
+.desktop-13 .vector-1-ABhMUW {
+  background-color: transparent;
+  height: 22px;
+  left: 1086px;
+  position: absolute;
+  top: 228px;
+  width: 38px;
+}
+
+.desktop-13 .lorem-ipsum-dolor-si-ByZ6LT {
+  left: 678px;
+  top: 1007px;
+  width: 566px;
+}
+
+.desktop-13 .lorem-ipsum-dolor-si-hANkjd {
+  left: 104px;
+  top: 1701px;
+  width: 566px;
+}
+
+.desktop-13 .lorem-ipsum-dolor-si-wCX45f {
+  left: 713px;
+  top: 3686px;
+  width: 566px;
+}
+
+.desktop-13 .lorem-ipsum-dolor-si-x7LAZv {
+  left: 106px;
+  top: 2963px;
+  width: 573px;
+}
+
+.desktop-13 .x54929-ABhMUW {
+  font-family: var(--font-family-anonymous_pro);
+  font-weight: 700;
+  left: 932px;
+  top: 1166px;
+  width: 177px;
+}
+
+.desktop-13 .x54929-ByZ6LT {
+  font-family: var(--font-family-noto_serif_jp);
+  font-weight: 900;
+  left: 353px;
+  top: 1915px;
+  width: auto;
+}
+
+.desktop-13 .button-see-more-ABhMUW {
+  background-color: transparent;
+  height: 3285px;
+  left: 105px;
+  position: absolute;
+  top: 621px;
+  width: 816px;
+}
+
+.desktop-13 .rectangle-1-YpUDlD {
+  background-color: var(--white);
+  height: 54px;
+  left: 575px;
+  position: absolute;
+  top: 550px;
+  width: 200px;
+}
+
+.desktop-13 .rectangle-4-YpUDlD {
+  background-color: var(--white);
+  height: 54px;
+  left: 0px;
+  position: absolute;
+  top: 1324px;
+  width: 200px;
+}
+
+.desktop-13 .rectangle-8-YpUDlD {
+  height: 54px;
+  left: 610px;
+  top: 3231px;
+  width: 200px;
+}
+
+.desktop-13 .rectangle-10-YpUDlD {
+  background-color: var(--white);
+  height: 54px;
+  left: 3px;
+  position: absolute;
+  top: 2446px;
+  width: 200px;
+}
+
+.desktop-13 .rectangle-2-YpUDlD {
+  background-color: var(--white);
+  height: 54px;
+  left: 1px;
+  position: absolute;
+  top: 0px;
+  width: 200px;
+}
+
+.desktop-13 .add-to-cart-YpUDlD {
+  left: 31px;
+  top: 1336px;
+}
+
+.desktop-13 .view-more-YpUDlD {
+  left: 34px;
+  top: 2458px;
+}
+
+.desktop-13 .view-more-XXo868 {
+  left: 641px;
+  top: 3243px;
+}
+
+.desktop-13 .size-ABhMUW {
+  height: 67px;
+  left: 104px;
+  top: 1817px;
+  width: 137px;
+}
+
+.desktop-13 .size-9DjoMx {
+  color: var(--white);
+  font-family: var(--font-family-anonymous_pro);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 0px;
+  letter-spacing: 1.56px;
+  line-height: normal;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .m-9DjoMx {
+  background-color: transparent;
+  height: auto;
+  left: 63px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 47px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .l-9DjoMx {
+  background-color: transparent;
+  height: auto;
+  left: 120px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 47px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .text-ABhMUW {
+  background-color: transparent;
+  height: 96px;
+  left: 877px;
+  position: absolute;
+  top: 1363px;
+  width: 343px;
+}
+
+.desktop-13 .text-ByZ6LT {
+  background-color: transparent;
+  height: 29px;
+  left: 876px;
+  position: absolute;
+  top: 1304px;
+  width: 165px;
+}
+
+.desktop-13 .png-transparent-silv-ABhMUW {
+  background-color: transparent;
+  height: 153px;
+  left: 688px;
+  object-fit: cover;
+  position: absolute;
+  top: 1303px;
+  width: 158px;
+}
+
+.desktop-13 .pageination-ABhMUW {
+  background-color: transparent;
+  height: 161px;
+  left: 1325px;
+  position: absolute;
+  top: 1613px;
+  width: 19px;
+}
+
+.desktop-13 .patination-slider-Lt0Ynt {
+  background-color: transparent;
+  height: 120px;
+  left: 5px;
+  position: absolute;
+  top: 20px;
+  width: 5px;
+}
+
+.desktop-13 .rectangle-7-JxL22m {
+  background-color: #e5e5e5;
+  height: 120px;
+  left: 2px;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+
+.desktop-13 .rectangle-8-JxL22m {
+  height: 22px;
+  left: 0px;
+  top: 0px;
+  width: 5px;
+}
+
+.desktop-13 .x01-Lt0Ynt {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-anonymous_pro);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 2px;
+  letter-spacing: -0.48px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 12px;
+}
+
+.desktop-13 .x09-Lt0Ynt {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-anonymous_pro);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 0px;
+  letter-spacing: -0.48px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 145px;
+  width: 15px;
+}
+
+.desktop-13 .footer-ABhMUW {
+  background-color: transparent;
+  height: 413px;
+  left: 0px;
+  position: absolute;
+  top: 4112px;
+  width: 1440px;
+}
+
+.desktop-13 .bg-aDgn3b {
+  background-color: var(--black);
+  height: 350px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+
+.desktop-13 .footer-bottom-aDgn3b {
+  background-color: transparent;
+  height: 64px;
+  left: 0px;
+  position: absolute;
+  top: 349px;
+  width: 1442px;
+}
+
+.desktop-13 .rectangle-355-szH4Vv {
+  background-color: var(--white);
+  height: 64px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1440px;
+}
+
+.desktop-13 .copyright-szH4Vv {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-anonymous_pro);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 537px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 24px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .text-aDgn3b {
+  background-color: transparent;
+  height: 196px;
+  left: 997px;
+  position: absolute;
+  top: 100px;
+  width: 268px;
+}
+
+.desktop-13 .social-media-icon-bw83xj {
+  background-color: transparent;
+  height: 28px;
+  left: 0px;
+  position: absolute;
+  top: 168px;
+  width: 114px;
+}
+
+.desktop-13 .youll-find-your-next-bw83xj {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 63px;
+  width: 264px;
+}
+
+.desktop-13 .get-in-touch-bw83xj {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .company-aDgn3b {
+  height: 196px;
+  left: 763px;
+  top: 100px;
+  width: 115px;
+}
+
+.desktop-13 .sitemap-VkJwNa {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 180px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .privacy-VkJwNa {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 141px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .terms-of-use-VkJwNa {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 102px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .patnerships-VkJwNa {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 63px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .company-VkJwNa {
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .resources-aDgn3b {
+  height: 198px;
+  left: 464px;
+  top: 100px;
+  width: 133px;
+}
+
+.desktop-13 .free-trial-Kz2gpn {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 182px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .video-Kz2gpn {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 143px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .member-stories-Kz2gpn {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 104px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .our-agents-Kz2gpn {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 65px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .resources-Kz2gpn {
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .product-aDgn3b {
+  height: 198px;
+  left: 175px;
+  top: 100px;
+  width: 88px;
+}
+
+.desktop-13 .text-TMRRbV {
+  background-color: transparent;
+  height: 198px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 98px;
+}
+
+.desktop-13 .blog-EhMUb4 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 182px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .agents-EhMUb4 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 143px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .free-tools-EhMUb4 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 104px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .email-row-EhMUb4 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 65px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .product-EhMUb4 {
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .silver-bracelet-png-ABhMUW {
+  background-color: transparent;
+  height: 278px;
+  left: 747px;
+  object-fit: cover;
+  position: absolute;
+  top: 1538px;
+  width: 548px;
+}
+
+.desktop-13 .facebook-ABhMUW {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-font_awesome_5_brands-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 1320px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 567px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .group-521-ABhMUW {
+  background-color: transparent;
+  height: 36px;
+  left: 103px;
+  position: absolute;
+  top: 1858px;
+  width: 38px;
+}
+
+.desktop-13 .ellipse-170-sxRis2 {
+  background-color: var(--white);
+  border-radius: 18px;
+  height: 36px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 36px;
+}
+
+.desktop-13 .s-sxRis2 {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-anonymous_pro);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 12px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.desktop-13 .image-63-ABhMUW {
+  background-color: transparent;
+  height: 356px;
+  left: 73px;
+  object-fit: cover;
+  position: absolute;
+  top: 2154px;
+  width: 592px;
+}
+
+.desktop-13 .an-exquisite-custom-jewellery-ABhMUW {
+  background-color: transparent;
+  height: auto;
+  left: 699px;
+  letter-spacing: 0.00px;
+  line-height: 66.3px;
+  position: absolute;
+  text-align: left;
+  top: 2136px;
+  width: 664px;
+}
+
+.desktop-13 .lorem-ipsum-dolor-si-GCxPvZ {
+  left: 699px;
+  top: 2301px;
+  width: 566px;
+}
+
+.desktop-13 .x64759-ABhMUW {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-noto_serif_jp);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 900;
+  height: auto;
+  left: 949px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 2432px;
+  width: auto;
+}
+
+.desktop-13 .rectangle-6295-ABhMUW {
+  background-color: var(--white);
+  height: 54px;
+  left: 699px;
+  position: absolute;
+  top: 2435px;
+  width: 200px;
+}
+
+.desktop-13 .image-61-ABhMUW {
+  background-color: transparent;
+  height: 412px;
+  left: 135px;
+  object-fit: cover;
+  position: absolute;
+  top: 823px;
+  width: 412px;
+}
+
+.desktop-13 .ellipse-171-ABhMUW {
+  background-color: var(--white);
+  border-radius: 186.5px/13.5px;
+  filter: blur(150px);;
+  height: 27px;
+  left: 127px;
+  position: absolute;
+  top: 1208px;
+  width: 373px;
+}
+
+.desktop-13 .get-started-ByZ6LT {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-weight: 600;
+  left: 135px;
+  top: 639px;
+  width: 138px;
+}
+
+.desktop-13 .add-to-cart-ABhMUW {
+  left: 710px;
+  top: 1171px;
+}
+
+.desktop-13 .view-more-ABhMUW {
+  left: 730px;
+  top: 2445px;
+}
+
+.desktop-13 .image-70-ABhMUW {
+  background-color: transparent;
+  height: 465px;
+  left: 0px;
+  position: absolute;
+  top: 4060px;
+  width: 1440px;
+}
+
+.desktop-13 .image-72-ABhMUW {
+  background-color: transparent;
+  height: 533px;
+  left: 679px;
+  object-fit: cover;
+  position: absolute;
+  top: 2657px;
+  width: 732px;
+}
+
+.desktop-13 .file-1-ABhMUW {
+  background-color: transparent;
+  height: 143px;
+  left: 594px;
+  object-fit: cover;
+  position: absolute;
+  top: -3px;
+  width: 168px;
+}
+
+.desktop-13 .image-73-ABhMUW {
+  background-color: transparent;
+  height: 321px;
+  left: 106px;
+  object-fit: cover;
+  position: absolute;
+  top: 3556px;
+  width: 482px;
+}
+
+.desktop-13 .add-to-cart {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 138px;
+}
+
+.desktop-13 .company {
+  background-color: transparent;
+  position: absolute;
+}
+
+.desktop-13 .get-started {
+  background-color: transparent;
+  color: var(--black);
+  font-style: normal;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+}
+
+.desktop-13 .lorem-ipsum-dolor-si {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 31.5px;
+  position: absolute;
+  text-align: left;
+}
+
+.desktop-13 .product {
+  background-color: transparent;
+  position: absolute;
+}
+
+.desktop-13 .rectangle-8 {
+  background-color: var(--white);
+  position: absolute;
+}
+
+.desktop-13 .resources {
+  background-color: transparent;
+  position: absolute;
+}
+
+.desktop-13 .size {
+  background-color: transparent;
+  position: absolute;
+}
+
+.desktop-13 .view-more {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 138px;
+}
+
+.desktop-13 .x54929 {
+  background-color: transparent;
+  color: var(--white);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+}
+</style></head><body style="margin: 0;background: #101014;"><input type="hidden" id="anPageName" name="page" value="desktop-13"><div class="container-center-horizontal"><div class="desktop-13 screen " data-id="1:13"><div class="rectangle-6294-ABhMUW" data-id="1:14"></div><h1 class="title-ABhMUW" data-id="1:15">Discover The Exceptional Jewellery With Us</h1><div class="gem-luxe-custom-jewels-ABhMUW" data-id="1103:6">GemLuxe Custom Jewels</div><p class="pikup-silver-sterling-designer-ring-ABhMUW anonymouspro-bold-white-51px" data-id="1:16">Pikup Silver Sterling Designer Ring</p><p class="silver-round-designer-bracelet-for-women-ABhMUW anonymouspro-bold-white-51px" data-id="1:17">Silver Round Designer Bracelet For Women</p><p class="we-have-everything-which-trendy-ABhMUW anonymouspro-bold-white-51px" data-id="1:18">We Have Everything Which Trendy</p><p class="jewell-best-collection-for-you-all-ABhMUW anonymouspro-bold-white-51px" data-id="1:19">Jewell Best Collection For You All</p><p class="lorem-ipsum-dolor-si-ABhMUW lorem-ipsum-dolor-si anonymouspro-normal-white-14px" data-id="1:20">Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et sint laboriosam sed ipsa sin</p><div class="log-in-ABhMUW" data-id="1:22">Log In</div><div class="rectangle-6271-ABhMUW" data-id="1:23"></div><div class="rectangle-6272-ABhMUW" data-id="1:24"></div><div class="get-started-ABhMUW get-started" data-id="1:28">Get Started</div><div class="home-ABhMUW anonymouspro-normal-white-24px" data-id="1:29">Home</div><div class="about-ABhMUW anonymouspro-normal-white-24px" data-id="1:30">About</div><div class="services-ABhMUW anonymouspro-normal-white-24px" data-id="1:31">Services</div><div class="catalogue-ABhMUW anonymouspro-normal-white-24px" data-id="1:32">Catalogue</div><img class="social-icons-ABhMUW" data-id="1:34" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/67563349bb99cd30088d4824/releases/675633860e72a501e06e171c/img/social-icons.svg" alt="Social Icons"><img class="vector-1-ABhMUW" data-id="1:45" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/67563349bb99cd30088d4824/releases/675633860e72a501e06e171c/img/vector-1.svg" alt="Vector 1"><p class="lorem-ipsum-dolor-si-ByZ6LT lorem-ipsum-dolor-si anonymouspro-normal-white-14px" data-id="1:48">Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et sint laboriosam sed ipsa sint ut voluptatum labore et possimus voluptas. Vel vitae temporibus sit nulla consequatur in illo galisum eo</p><p class="lorem-ipsum-dolor-si-hANkjd lorem-ipsum-dolor-si anonymouspro-normal-white-14px" data-id="1:49">Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et sint laboriosam sed ipsa sint ut voluptatum labore et possimus voluptas. Vel vitae temporibus sit nulla consequatur in illo galisum eo</p><p class="lorem-ipsum-dolor-si-wCX45f lorem-ipsum-dolor-si anonymouspro-normal-white-14px" data-id="1:50">Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et sint laboriosam sed ipsa sint ut voluptatum labore et possimus voluptas. Vel vitae temporibus sit nulla consequatur in illo galisum eo</p><p class="lorem-ipsum-dolor-si-x7LAZv lorem-ipsum-dolor-si anonymouspro-normal-white-14px" data-id="1:51">Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et sint laboriosam sed ipsa sint ut voluptatum labore et possimus voluptas. Vel vitae temporibus sit nulla consequatur in illo galisum eo</p><div class="x54929-ABhMUW x54929" data-id="1:52">$ 549.29</div><div class="x54929-ByZ6LT x54929" data-id="1:53">$ 549.29</div><div class="button-see-more-ABhMUW" data-id="1:54"><div class="rectangle-1-YpUDlD" data-id="1:55"></div><div class="rectangle-4-YpUDlD" data-id="1:56"></div><div class="rectangle-8-YpUDlD rectangle-8" data-id="1:57"></div><div class="rectangle-10-YpUDlD" data-id="1:58"></div><div class="rectangle-2-YpUDlD" data-id="1:59"></div><div class="add-to-cart-YpUDlD add-to-cart poppins-medium-black-20px" data-id="1:60">ADD TO CART</div><div class="view-more-YpUDlD view-more poppins-medium-black-20px" data-id="1:61">VIEW MORE</div><div class="view-more-XXo868 view-more poppins-medium-black-20px" data-id="1:62">VIEW MORE</div></div><div class="size-ABhMUW size" data-id="1:63"><div class="size-9DjoMx size" data-id="1:64">Size</div><div class="m-9DjoMx anonymouspro-normal-white-20px" data-id="1:65">M</div><div class="l-9DjoMx anonymouspro-normal-white-20px" data-id="1:66">L</div></div><img class="text-ABhMUW" data-id="1:67" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/67563349bb99cd30088d4824/releases/675633860e72a501e06e171c/img/text.png" alt="text"><img class="text-ByZ6LT" data-id="1:68" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/67563349bb99cd30088d4824/releases/675633860e72a501e06e171c/img/text-1.png" alt="text"><img class="png-transparent-silv-ABhMUW" data-id="1:69" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/67563349bb99cd30088d4824/releases/675633860e72a501e06e171c/img/png-transparent-silver-colored-rings-with-gemstones-wedding-ring.png" alt="png-transparent-silver-colored-rings-with-gemstones-wedding-ring-couple-silver-couple-ring-love-ring-wedding-removebg-preview (1) 1"><div class="pageination-ABhMUW" data-id="1:70"><div class="patination-slider-Lt0Ynt" data-id="1:71"><div class="rectangle-7-JxL22m" data-id="1:72"></div><div class="rectangle-8-JxL22m rectangle-8" data-id="1:73"></div></div><div class="x01-Lt0Ynt" data-id="1:74">01</div><div class="x09-Lt0Ynt" data-id="1:75">09</div></div><footer class="footer-ABhMUW" data-id="1:134"><div class="bg-aDgn3b" data-id="1:135"></div><div class="footer-bottom-aDgn3b" data-id="1:136"><div class="rectangle-355-szH4Vv" data-id="1:137"></div><p class="copyright-szH4Vv" data-id="1:138">Copyright 2024 gemluxe.com, All rights reserved.</p></div><div class="text-aDgn3b" data-id="1:139"><img class="social-media-icon-bw83xj" data-id="1:140" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/67563349bb99cd30088d4824/releases/675633860e72a501e06e171c/img/social-media-icon@2x.png" alt="Social media icon"><p class="youll-find-your-next-bw83xj anonymouspro-normal-white-16px" data-id="1:150">You’ll find your next Marketing value you prefer.</p><div class="get-in-touch-bw83xj anonymouspro-normal-white-20px" data-id="1:151">Get in touch</div></div><div class="company-aDgn3b company" data-id="1:152"><div class="sitemap-VkJwNa anonymouspro-normal-white-16px" data-id="1:153">Sitemap</div><div class="privacy-VkJwNa anonymouspro-normal-white-16px" data-id="1:154">Privacy</div><div class="terms-of-use-VkJwNa anonymouspro-normal-white-16px" data-id="1:155">Terms of use</div><div class="patnerships-VkJwNa anonymouspro-normal-white-16px" data-id="1:156">Patnerships</div><div class="company-VkJwNa company anonymouspro-normal-white-20px" data-id="1:157">Company</div></div><div class="resources-aDgn3b resources" data-id="1:158"><div class="free-trial-Kz2gpn anonymouspro-normal-white-16px" data-id="1:159">Free trial</div><div class="video-Kz2gpn anonymouspro-normal-white-16px" data-id="1:160">Video</div><div class="member-stories-Kz2gpn anonymouspro-normal-white-16px" data-id="1:161">Member Stories</div><div class="our-agents-Kz2gpn anonymouspro-normal-white-16px" data-id="1:162">Our Agents</div><div class="resources-Kz2gpn resources anonymouspro-normal-white-20px" data-id="1:163">Resources</div></div><div class="product-aDgn3b product" data-id="1:164"><div class="text-TMRRbV" data-id="1:165"><div class="blog-EhMUb4 anonymouspro-normal-white-16px" data-id="1:166">Blog</div><div class="agents-EhMUb4 anonymouspro-normal-white-16px" data-id="1:167">Agents</div><div class="free-tools-EhMUb4 anonymouspro-normal-white-16px" data-id="1:168">Free Tools</div><div class="email-row-EhMUb4 anonymouspro-normal-white-16px" data-id="1:169">Email Row</div><div class="product-EhMUb4 product anonymouspro-normal-white-20px" data-id="1:170">Product</div></div></div></footer><img class="silver-bracelet-png-ABhMUW" data-id="1:171" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/67563349bb99cd30088d4824/releases/675633860e72a501e06e171c/img/silver-bracelet-png-free-image-removebg-preview-1.png" alt="Silver-Bracelet-PNG-Free-Image-removebg-preview 1"><div class="facebook-ABhMUW" data-id="1:172">facebook</div><div class="group-521-ABhMUW" data-id="1:173"><div class="ellipse-170-sxRis2" data-id="1:174"></div><div class="s-sxRis2" data-id="1:175">S</div></div><img class="image-63-ABhMUW" data-id="1:176" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/67563349bb99cd30088d4824/releases/675633860e72a501e06e171c/img/image-63.png" alt="image 63"><div class="an-exquisite-custom-jewellery-ABhMUW anonymouspro-bold-white-51px" data-id="1:177">An Exquisite Custom Jewellery</div><p class="lorem-ipsum-dolor-si-GCxPvZ lorem-ipsum-dolor-si anonymouspro-normal-white-14px" data-id="1:178">Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et sint laboriosam sed ipsa sint ut voluptatum labore et possimus voluptas. Vel vitae temporibus sit nulla consequatur in illo galisum eo</p><div class="x64759-ABhMUW" data-id="1:179">$ 647.59</div><div class="rectangle-6295-ABhMUW" data-id="1:180"></div><img class="image-61-ABhMUW" data-id="1:181" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/67563349bb99cd30088d4824/releases/675633860e72a501e06e171c/img/image-61.png" alt="image 61"><div class="ellipse-171-ABhMUW" data-id="1:182"></div><div class="get-started-ByZ6LT get-started" data-id="1:183">GET STARTED</div><div class="add-to-cart-ABhMUW add-to-cart poppins-medium-black-20px" data-id="1:184">ADD TO CART</div><div class="view-more-ABhMUW view-more poppins-medium-black-20px" data-id="1:185">VIEW MORE</div><img class="image-70-ABhMUW" data-id="1:186" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/67563349bb99cd30088d4824/releases/675633860e72a501e06e171c/img/image-70.png" alt="image 70"><img class="image-72-ABhMUW" data-id="1103:3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/67563349bb99cd30088d4824/releases/675633860e72a501e06e171c/img/image-72.png" alt="image 72"><img class="file-1-ABhMUW" data-id="1103:5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/67563349bb99cd30088d4824/releases/675633860e72a501e06e171c/img/file-1.png" alt="file 1"><img class="image-73-ABhMUW" data-id="1103:10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/67563349bb99cd30088d4824/releases/675633860e72a501e06e171c/img/image-73.png" alt="image 73"></div></div><script src="launchpad-js/launchpad-banner.js" async></script><script defer src="https://animaapp.s3.amazonaws.com/static/restart-btn.min.js"></script></body></html>
