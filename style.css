@@ -48,6 +48,8 @@
 
 .desktop .text-wrapper {
   position: absolute;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   width: 664px;
   top: 308px;
   left: 678px;
@@ -74,6 +76,9 @@
 
 .desktop .text-wrapper-2 {
   position: absolute;
+  cursor: pointer;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   width: 664px;
   top: 2992px;
   left: 713px;
@@ -87,6 +92,8 @@
 
 .desktop .text-wrapper-3 {
   position: absolute;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   width: 607px;
   top: 2229px;
   left: 106px;
@@ -100,6 +107,8 @@
 
 .desktop .text-wrapper-4 {
   position: absolute;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   width: 528px;
   top: 0;
   left: 105px;
@@ -112,6 +121,8 @@
 }
 
 .desktop .text-wrapper-5 {
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   width: 566px;
   top: 471px;
   left: 678px;
@@ -125,6 +136,8 @@
 }
 
 .desktop .text-wrapper-6 {
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   width: 566px;
   top: 1165px;
   left: 104px;
@@ -138,6 +151,8 @@
 }
 
 .desktop .text-wrapper-7 {
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   width: 566px;
   top: 3150px;
   left: 713px;
@@ -151,6 +166,8 @@
 }
 
 .desktop .text-wrapper-8 {
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   width: 573px;
   top: 2427px;
   left: 106px;
@@ -164,6 +181,8 @@
 }
 
 .desktop .text-wrapper-9 {
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   position: absolute;
   top: 1410px;
   left: 353px;
@@ -202,6 +221,8 @@
 }
 
 .desktop .text-wrapper-10 {
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   position: absolute;
   width: 138px;
   top: 12px;
@@ -251,6 +272,8 @@
 }
 
 .desktop .text-wrapper-11 {
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   position: absolute;
   top: 0;
   left: 0;
@@ -264,6 +287,8 @@
 }
 
 .desktop .text-wrapper-12 {
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   position: absolute;
   top: 47px;
   left: 63px;
@@ -277,6 +302,8 @@
 }
 
 .desktop .text-wrapper-13 {
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   top: 47px;
   left: 120px;
   font-family: "Anonymous Pro-Regular", Helvetica;
@@ -340,6 +367,8 @@
 }
 
 .desktop .text-wrapper-14 {
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   top: 6px;
   left: 12px;
   font-family: "Anonymous Pro-Regular", Helvetica;
@@ -362,6 +391,8 @@
 }
 
 .desktop .text-wrapper-15 {
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   position: absolute;
   width: 664px;
   top: 1600px;
@@ -375,6 +406,8 @@
 }
 
 .desktop .text-wrapper-16 {
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   width: 566px;
   top: 1765px;
   left: 699px;
@@ -388,6 +421,8 @@
 }
 
 .desktop .text-wrapper-17 {
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   top: 1896px;
   left: 949px;
   font-family: "Noto Serif JP-Black", Helvetica;
@@ -847,7 +882,12 @@
 }
 
 .desktop .text-wrapper-31 {
+  cursor: pointer;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   position: absolute;
+  color: #4a90e2; /* Highlight color */
+  transform: scale(1.1); /* Slight enlargement */
   top: 0;
   left: 0;
   font-family: "Anonymous Pro-Regular", Helvetica;
@@ -868,6 +908,9 @@
 }
 
 .desktop .text-wrapper-32 {
+  cursor: pointer;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   position: absolute;
   top: 180px;
   left: 0;
@@ -881,6 +924,9 @@
 }
 
 .desktop .text-wrapper-33 {
+  cursor: pointer;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   position: absolute;
   top: 141px;
   left: 0;
@@ -894,6 +940,9 @@
 }
 
 .desktop .text-wrapper-34 {
+  cursor: pointer;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   position: absolute;
   top: 102px;
   left: 0;
@@ -907,6 +956,9 @@
 }
 
 .desktop .text-wrapper-35 {
+  cursor: pointer;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   position: absolute;
   top: 63px;
   left: 0;
@@ -928,6 +980,9 @@
 }
 
 .desktop .text-wrapper-36 {
+  cursor: pointer;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   top: 182px;
   position: absolute;
   left: 0;
@@ -941,6 +996,9 @@
 }
 
 .desktop .text-wrapper-37 {
+  cursor: pointer;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   position: absolute;
   top: 143px;
   left: 0;
@@ -954,6 +1012,9 @@
 }
 
 .desktop .text-wrapper-38 {
+  cursor: pointer;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   position: absolute;
   top: 104px;
   left: 0;
@@ -967,7 +1028,12 @@
 }
 
 .desktop .text-wrapper-39 {
+  cursor: pointer;
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
   position: absolute;
+  color: #4a90e2; /* Highlight color */
+  transform: scale(1.1); /* Slight enlargement */
   top: 65px;
   left: 0;
   font-family: "Anonymous Pro-Regular", Helvetica;
@@ -999,4 +1065,143 @@
   height: 465px;
   top: 0;
   left: 0;
+}
+
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Floating button in the bottom-right corner */
+#floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+#floating-button button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#floating-button button:hover {
+  background-color: #357ab8;
+  transform: scale(1.1);
+}
+
+/* Modal styles */
+#form-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1001;
+}
+
+#modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#modal-content {
+  position: relative;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 90%;
+  z-index: 1002;
+  animation: fadeIn 0.3s ease;
+}
+
+#modal-content h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+#modal-content form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#modal-content input,
+#modal-content textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#modal-content button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#modal-content button:hover {
+  background-color: #357ab8;
+}
+
+/* Hidden state for modal */
+.hidden {
+  display: none;
+}
+
+/* Popup animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Keyframes for text animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the text-wrapper-22 class */
+.animated-text {
+  animation: pulse 2s infinite; /* Animation duration and infinite loop */
+  color: #4a90e2; /* Optional: highlight color */
+  transition: color 0.3s ease; /* Smooth color transition */
 }

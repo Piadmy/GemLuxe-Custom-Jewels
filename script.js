@@ -15,13 +15,33 @@ function initMap() {
   document.head.appendChild(script);
 })();
 
-// Add event listeners to buttons
 document.addEventListener("DOMContentLoaded", () => {
-  const buttons = document.querySelectorAll(".animated-button");
+  const openFormButton = document.getElementById("open-form");
+  const formModal = document.getElementById("form-modal");
+  const modalOverlay = document.getElementById("modal-overlay");
+  const contactForm = document.getElementById("contact-form");
 
-  buttons.forEach(button => {
-    button.addEventListener("click", () => {
-      alert(`Button ${button.innerText} clicked!`);
-    });
+  // Open the modal when the button is clicked
+  openFormButton.addEventListener("click", () => {
+    formModal.classList.remove("hidden");
+  });
+
+  // Close the modal when clicking the overlay
+  modalOverlay.addEventListener("click", () => {
+    formModal.classList.add("hidden");
+  });
+
+  // Handle form submission
+  contactForm.addEventListener("submit", (e) => {
+    e.preventDefault(); // Prevent default form submission
+
+    // Display popup message
+    alert("We will contact you soon!");
+
+    // Close the modal
+    formModal.classList.add("hidden");
+
+    // Reset the form
+    contactForm.reset();
   });
 });
